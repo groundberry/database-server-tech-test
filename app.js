@@ -8,3 +8,5 @@ app.get('/', function (req, res) {
 app.listen(4000, function () {
   console.log('App listening on port 4000!');
 });
+
+module.exports = app;
